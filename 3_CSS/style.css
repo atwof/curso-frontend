@@ -1,0 +1,84 @@
+/* External */
+body {
+    padding: 0%;
+}
+
+h3 {
+    color: green;
+}
+
+/* Classes */
+.paragraph {
+    background-color: #000;
+    color: green;
+    padding: 5px;
+    width: 50%;
+}
+
+/* ID */
+#exclusive-title {
+    background-color: purple;
+    color: yellow;
+    padding: 10px;
+    width: 100%;
+    font-size: 20px;
+}
+
+/* Ordem das regras */
+h2 {
+    border-bottom:  2px solid blue;
+}
+
+.titulo {
+    border-bottom: 3px solid red;
+}
+
+#algum-titulo {
+    border-bottom: 4px solid green;
+}
+
+/* Nome de cores */
+.color-name {
+    color: crimson;
+}
+
+/* Cor Hexadecimal */
+.hex {
+    color: #556ee2;
+}
+
+.hex-2 {
+    color: #092aaa;
+}
+
+/* Mais sobre hexadecimal 
+Quando o mesmo valor se repete no color
+#ffffff = #fff
+#11aa55 = #1a5
+ */
+
+.simple-hex {
+    color: #333;
+}
+
+.simple-hex-2 {
+    color: #a5f;
+}
+
+/* RGB */
+.rgb {
+    color: rgb(255, 0, 0)
+}
+
+.mixed-rgb {
+    color: rgb(12,199,0);
+}
+
+/* RGBa */
+.rgba {
+    color: rgba(99, 255, 99, 0.9)
+}
+
+.mixed-rgba {
+    color: rgba(255,0,0, 0.2);
+}

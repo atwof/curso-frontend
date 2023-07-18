@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seção CSS</title>
+
+    <!--Internal-->
+    <style>
+        p {
+            color: darkcyan;
+            font-size: 20px;
+            font-weight: 700;
+        }
+    </style>
+
+    <!--External-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--Múltiplos arquivos de CSS-->
+    <link rel="stylesheet" href="lists.css">
+
+    <!--Desafio-->
+    <link rel="stylesheet" href="titles.css">
+
+</head>
+<body>
+    <!--Inline-->
+    <h1 style="color:red">Mudar com com inline</h1>
+    <h1 style="color:blue">Outro título</h1>
+
+    <!--Múltiplas regras inline-->
+    <h2 style = "color:purple; font-size: 50px; border-bottom: 1px solid red;">
+        Múltipla regra
+    </h2>
+
+    <!--Internal-->
+    <h2>CSS Internal</h2>
+    <h2>CSS Internal 2</h2>
+    <p>Lorem ipsum dolor sit amet.</p>
+
+    <!--External-->
+    <h3>External CSS</h3>
+    <h4>External desafio</h4>
+
+    <!--Ordem do CSS-->
+    <p style="color: green;">Ordem do CSS</p>
+    <p>Sem regra inline</p>
+    <h4>Desafio ordem</h4>
+
+    <!--Mútiplos arquivos de CSS-->
+    <ul>
+        <li>Banana</li>
+        <li>Maça</li>
+        <li>Abacate</li>
+    </ul>
+
+    <!--Desafio-->
+    <h4>Desafio</h4>
+
+    <!--Classes-->
+    <p class="paragraph">Algum texto 1</p>
+    <p class="paragraph">Algum texto 2</p>
+    <p class="paragraph">Algum texto 3</p>
+
+    <!--Ids-->
+    <h1 id="exclusive-title">Este é um título com ID</h1>
+
+    <!--Classe e ID - Ordem do CSS-->
+    <h2 id="algum-titulo" class="titulo">Algum texto 1</h2>
+    <h2 class="titulo">Algum texto 2</h2>
+    <h2>Algum texto 3</h2>
+
+    <!--Nome de cor-->
+    <p class="color-name">Parágrafo com nome de cor</p>
+
+    <!--Cor Hexadecimal-->
+    <p class="hex">Parágrafo com hex</p>
+    <p class="hex-2">Parágrafo com hex - 2</p>
+
+    <!--Mais sobre Hexadecimal-->
+    <p class="simple-hex">Hexidacimal simplificado</p>
+    <p class="simple-hex-2">Hexidacimal simplificado - 2</p>
+
+    <!--RGB-->
+    <p class="rgb">Parágrafo RGB</p>
+    <p class="mixed-rgb">Parágrafo RGB Mixed</p>
+
+    <!--RGBa-->
+    <p class="rgba">Parágrafo RGBa</p>
+    <p class="mixed-rgba">Parágrafo RGBa Mixed</p>
+
+</body>
+</html>

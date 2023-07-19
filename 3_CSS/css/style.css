@@ -401,3 +401,8 @@ Quando o mesmo valor se repete no color
     display: block;
     margin: 10px;
 }
+
+/* Esconder elementos */
+.invisible {
+    display: none;
+}

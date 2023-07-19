@@ -119,3 +119,83 @@ Quando o mesmo valor se repete no color
     background-color: rgba(90, 120, 20, 0.2);
     color: #000;
 }
+
+/* bg image */
+.bg-image {
+    background-image: url("../2_HTML/assets/audi.jpeg");
+    padding: 10px;
+    color: #000;
+}
+
+/* Centralizando bg image */
+.not-centered-bg, 
+.centered-bg {
+    height: 300px;
+    width: 300px;
+    background-image: url("../2_HTML/assets/audi.jpeg");
+}
+
+.centered-bg {
+    background-position: center;
+    background-size: cover;
+}
+
+/* Lagura e altura */
+.height-width {
+    height: 200px;
+    width: 50%;
+    background-color: #000;
+}
+
+.height-width-2 {
+    height: 200px;
+    background-color: #333;
+}
+
+/* Padding */
+.without-padding,
+.padding {
+    background-color: #111;
+    color: #fff;
+}
+
+.padding {
+    background-color: #999;
+    padding: 20px;
+}
+
+/* Padding individual */
+.padding-individual {
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-right: 35px;
+    padding-bottom: 20px;
+    background-color: #a5f;
+}
+
+/* Shorthand Properties */
+.shorthand-properties {
+    background-color: #444;
+    padding: 20px 12px 18px 20px;
+}
+
+.shorthand-properties {
+    background-color: #555;
+    padding: 10px 20px;
+}
+
+/* Padding with width */
+.without-border-box {
+    background-color: #444;
+    color: #fff;
+    width: 400px;
+    padding: 50px;
+}
+
+.border-box {
+    background-color: #4a4;
+    color: #fff;
+    width: 400px;
+    padding: 50px;
+    box-sizing: border-box;
+}

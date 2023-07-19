@@ -373,3 +373,16 @@ Quando o mesmo valor se repete no color
 .weigth-800 {
     font-weight: 800;
 }
+
+/* Font size */
+.size-20 {
+    font-size: 20px;
+}
+
+.size-50 {
+    font-size: 50px;
+}
+
+.size-200 {
+    font-size: 200px;
+}

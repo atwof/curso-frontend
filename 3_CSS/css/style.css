@@ -210,3 +210,17 @@ Quando o mesmo valor se repete no color
     border: 2px dotted #a5f;
     padding: 5px;
 }
+
+/* Borda individual */
+.border-left {
+    border-left: 3px solid #092aaa;
+    background-color: #4a4;
+    padding: 25px;
+    color: #fff;
+}
+
+.border-bottom {
+    border-bottom: 5px double #399;
+    background-color: #222;
+    padding: 20px;
+}

@@ -287,3 +287,18 @@ Quando o mesmo valor se repete no color
     font-weight: 800;
     border: none;
 }
+
+/* Alinhamento de texto */
+.text-aligned {
+    text-align: right;
+}
+
+.container-center {
+    text-align: center;
+    width: 300px;
+    border: 1px solid #4a4;
+}
+
+.container-center h2 {
+    border: none;
+}

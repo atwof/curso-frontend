@@ -268,3 +268,22 @@ Quando o mesmo valor se repete no color
     width: 200px;
     height: 100px;
 }
+
+/* Desafio 3 */
+#desafio-3 {
+    margin-top: 20px;
+    padding: 20px;
+    border: 20px dotted #4a4;
+    border-radius: 20px;
+    height: 80px;
+    width: 300px;
+    background-color: #556ee2;
+    outline: 20px solid #845;
+}
+
+.texto-h2 {
+    color: #4a4;
+    font-size: 40px;
+    font-weight: 800;
+    border: none;
+}

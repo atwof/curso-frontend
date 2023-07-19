@@ -122,7 +122,7 @@ Quando o mesmo valor se repete no color
 
 /* bg image */
 .bg-image {
-    background-image: url("../2_HTML/assets/audi.jpeg");
+    background-image: url("../../2_HTML/assets/audi.jpeg");
     padding: 10px;
     color: #000;
 }
@@ -132,7 +132,7 @@ Quando o mesmo valor se repete no color
 .centered-bg {
     height: 300px;
     width: 300px;
-    background-image: url("../2_HTML/assets/audi.jpeg");
+    background-image: url("../../2_HTML/assets/audi.jpeg");
 }
 
 .centered-bg {
@@ -198,4 +198,15 @@ Quando o mesmo valor se repete no color
     width: 400px;
     padding: 50px;
     box-sizing: border-box;
+}
+
+/* Border */
+.border {
+    border: 5px solid #4a4;
+    padding: 10px;
+}
+
+.border-2 {
+    border: 2px dotted #a5f;
+    padding: 5px;
 }

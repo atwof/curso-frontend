@@ -360,3 +360,16 @@ Quando o mesmo valor se repete no color
 .oblique {
     font-style: oblique;
 }
+
+/* Font weigth */
+.weigth-100, .weigth-800 {
+    font-family: Helvetica;
+}
+
+.weigth-100 {
+    font-weight: 100;
+}
+
+.weigth-800 {
+    font-weight: 800;
+}

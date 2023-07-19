@@ -330,3 +330,24 @@ Quando o mesmo valor se repete no color
 .spacing {
     letter-spacing: 5px;   
 }
+
+/* Fontes */
+.serif {
+    font-family: Georgia;
+}
+
+.sans-serif {
+    font-family: Helvetica;
+}
+
+.mono-space {
+    font-family: 'Courier New';
+}
+
+.cursive {
+    font-family: cursive;
+}
+
+.fantasy {
+    font-family: fantasy;
+}

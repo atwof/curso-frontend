@@ -406,3 +406,12 @@ Quando o mesmo valor se repete no color
 .invisible {
     display: none;
 }
+
+/* Static */
+.static {
+    position: static;
+    background-color: #111;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+}

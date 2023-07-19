@@ -407,10 +407,21 @@ Quando o mesmo valor se repete no color
     display: none;
 }
 
-/* Static */
+/* Position static */
 .static {
     position: static;
     background-color: #111;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+}
+
+/* Position relative */
+.relative {
+    top: 100px;
+    left: 100px;
+    position: relative;
+    background-color: #4a4;
     color: #fff;
     width: 100px;
     height: 100px;

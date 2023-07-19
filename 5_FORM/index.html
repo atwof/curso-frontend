@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h2>Formulário HTML</h2>
+
+    <!--Primeiro formuário-->
+    <!--Atributos do formulário-->
+    <form action="/enviar/formulario" method="POST">
+        <div>
+            <label>Nome:</label>
+            <input type="text">
+        </div>
+        <!--Atributo name-->
+        <div>
+            <label>Idade:</label>
+            <input type="text" name="age">
+        </div>
+        <!--Atributo da label - for-->
+        <div>
+            <label for="job">Emprego:</label>
+            <input type="text" name="job">
+        </div>
+        <!--Enviar dados do input-->
+        <div>
+            <input type="submit" value="Enviar">
+        </div>
+    </form>
+</body>
+</html>

@@ -426,3 +426,14 @@ Quando o mesmo valor se repete no color
     width: 100px;
     height: 100px;
 }
+
+/* Position absolute */
+.absolute {
+    position: absolute;
+    background-color: #845;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    top: 2px;
+    right: 2px;
+}

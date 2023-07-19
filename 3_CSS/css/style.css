@@ -351,3 +351,12 @@ Quando o mesmo valor se repete no color
 .fantasy {
     font-family: fantasy;
 }
+
+/* Font Style */
+.italic {
+    font-style: italic;
+}
+
+.oblique {
+    font-style: oblique;
+}

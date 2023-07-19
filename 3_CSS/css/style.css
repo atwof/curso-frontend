@@ -302,3 +302,17 @@ Quando o mesmo valor se repete no color
 .container-center h2 {
     border: none;
 }
+
+/* Text decoration */
+.underline {
+    text-decoration: underline;
+}
+
+.line-trough {
+    text-decoration: line-through;
+}
+
+.remove-underline {
+    text-decoration: none;
+    color: #399;
+}

@@ -2,8 +2,20 @@ h1 {
     color: red;
 }
 
+p {
+    color: blue;
+    font-size: 20px;
+}
+
 @media screen and (max-width: 467px) {
     h1 {
         color: green;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    p {
+        color: blueviolet;
+        font-size: 200px;
     }
 }

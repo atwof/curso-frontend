@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto FORM</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="contaner">
+        <div class="header">
+            <h3>Cadastre seu veículo para vender mais rápido!</h3>
+        </div>
+        <div class="form-container">
+            <div class="form-header">
+                <p>Formulário</p>
+            </div>
+            <div class="form-body">
+                <h1 class="form-title">Venda fácil seu carro</h1>
+                <p>Descreva as características e marca os opcionais do carro</p>
+            </div>
+            <form>
+                <div class="box-input">
+                    <label for="title">Título do anúncio <span class="required-field">*</span></label>
+                    <input 
+                    type="text" 
+                    name="title"
+                    id="title"
+                    class="block" 
+                    placeholder="Um título para anunciar o seu carro"
+                    minlength="1"
+                    maxlength="30"
+                    required>
+                </div>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+    </div>
+</body>
+</html>

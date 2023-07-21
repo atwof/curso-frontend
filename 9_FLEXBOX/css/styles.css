@@ -59,3 +59,38 @@ body {
 .end {
     justify-content: end;
 }
+
+/* Align Items */
+.align-center,
+.flex-end,
+.stretch {
+    display: flex;
+    margin-bottom: 20px;
+    height: 200px;
+    border: 1px solid blue;
+}
+
+.align-center .box,
+.stretch .box,
+.flex-end .box{
+    width: 50px;
+}
+
+.align-center {
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-end {
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.stretch {
+    align-items: stretch;
+    justify-content: center;
+}
+
+.stretch .box {
+    height: auto;
+}

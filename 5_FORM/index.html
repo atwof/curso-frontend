@@ -26,6 +26,23 @@
             <label for="job">Emprego:</label>
             <input type="text" name="job">
         </div>
+        <!--Select-->
+        <div>
+            <label for="job">Selecione a sua profissão:</label>
+            <select name="job">
+                <option value="programador">Programador</option>
+                <option value="tester">Teste/QA</option>
+                <option value="devops">DevOps</option>
+            </select>
+        </div>
+        <!--Set atributo selected-->
+        <div>
+            <label for="contract">Você leu os contratos do select?</label>
+            <select name="contract">
+                <option value="sim">Sim</option>
+                <option value="nao" selected>Não</option>
+            </select>
+        </div>
         <!--Enviar dados do input-->
         <div>
             <input type="submit" value="Enviar">

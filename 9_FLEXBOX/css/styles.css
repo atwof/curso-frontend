@@ -1,0 +1,16 @@
+body {
+    padding-bottom: 500px;
+}
+
+/* Flex */
+.flex {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+/*Flex Column */
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    background-color: #ccc;
+}

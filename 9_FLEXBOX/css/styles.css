@@ -124,3 +124,16 @@ body {
 #box3 {
     order: 1;
 }
+
+/* Grow */
+.grow {
+    display: flex;
+}
+
+.grow .box {
+    flex: 1;
+}
+
+.grow .big {
+    flex: 2;
+}

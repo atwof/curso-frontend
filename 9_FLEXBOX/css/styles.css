@@ -180,3 +180,15 @@ body {
 .shorthand .diff {
     flex: 3 1 400px;
 }
+
+/* Auto alinhamento */
+.auto-aligment {
+    display: flex;
+    height: 300px;
+    align-items: end;
+    border: 1 solid greens;
+}
+
+.auto-aligment .diff {
+    align-self: center;
+}

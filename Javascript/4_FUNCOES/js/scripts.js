@@ -84,3 +84,16 @@ const parOuImpar = (n) => {
 
 parOuImpar(16);
 parOuImpar(9);
+
+// Arrow function mais resumida
+
+// Essa é normal
+const raizQuadrada = (x) => {
+    return x * x;
+}
+console.log(raizQuadrada(4));
+
+// Essa é resumida
+const raizQuadrada2 = (x) => x * x;
+
+console.log(raizQuadrada2(5));

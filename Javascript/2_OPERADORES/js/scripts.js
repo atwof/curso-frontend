@@ -34,3 +34,9 @@ console.log(`Testando ` + `com a ` + `crase`);
 // Interpolação de strings ou template strings
 console.log(`A soma de 2 + 2 é: ${2+2}`);
 console.log(`Podemos executar qualquer coisa aqui ${console.log(2222)}`);
+
+// Boolean
+console.log(true);
+console.log(typeof true);
+console.log(5 > 9);
+console.log(5 < 9);

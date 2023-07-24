@@ -179,3 +179,9 @@ switch(l) {
     default:
         console.log("Profissão não encontrada!");
 }
+
+// Convenção para declaração de variáveis
+let programadorcadastrado; // Pior forma de declaração
+let programador_cadastrado;
+let ProgramadorCadastrado;
+let programadorCadastrado; // Melhor forma = CamelCase

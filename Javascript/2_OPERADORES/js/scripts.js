@@ -22,3 +22,7 @@ console.log('Alisson')
 console.log(`alisson`)
 console.log(typeof "Alisson")
 console.log(typeof 'Alisson')
+
+// Mais strings
+console.log("Testando o contra barra n \n nesse momento")
+console.log("Espaçamento de \t tab")

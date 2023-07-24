@@ -167,3 +167,36 @@ console.log(c2);
 console.log(c1(5));
 console.log(c2(10));
 
+// Recursividade
+const untilTen = (n, m) => {
+    if(n < 10){
+        console.log("A função parou de executar");
+    } else {
+        const x = n - m;
+
+        console.log(x);
+
+        untilTen(x, m);
+    }
+}
+
+untilTen(100, 7);
+
+function run() {
+    console.log("Executando...");
+    run();
+}
+
+function factorial(x) {
+    if(x === 0) {
+        return 1;
+    } else {
+        return x * factorial(x - 1);
+    }
+}
+
+const s = 3;
+
+const result = factorial(s);
+
+console.log(`O fatorial do número ${s} é ${result}`)

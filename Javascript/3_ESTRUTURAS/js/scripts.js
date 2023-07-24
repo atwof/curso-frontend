@@ -40,3 +40,7 @@ console.log(_teste, $teste);
 // alert("Testando")
 //alert(`O número é ${p}`);
 
+// Math.x
+console.log(Math.max(1,66,4,2,34,444));
+console.log(Math.floor(5.4));
+console.log(Math.ceil(5.22));

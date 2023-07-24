@@ -86,3 +86,17 @@ if(userName === "Alissohn") {
 } else {
     console.log("Nenhuma conta encontrada!");
 }
+
+// Estrutura de repetição
+let o = 0;
+
+while(o < 5) {
+    console.log(`Repetindo ${o}`);
+    o = o + 1;
+}
+
+// Loop infinito
+// let xx = 10;
+// while(x < 10) {
+//     console.log(x)
+// }

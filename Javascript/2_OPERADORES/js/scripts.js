@@ -13,6 +13,12 @@ console.log(4.5*9.222)
 console.log(typeof Infinity)
 console.log(typeof -Infinity)
 console.log(typeof NaN)
-
 console.log(2/0)
 console.log(10 * "s")
+
+// Strings
+console.log("Alisson")
+console.log('Alisson')
+console.log(`alisson`)
+console.log(typeof "Alisson")
+console.log(typeof 'Alisson')

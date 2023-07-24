@@ -66,3 +66,23 @@ if(user === "Alisson") {
 } else {
     console.log("Usuário não reconhecido!");
 }
+
+// ELSE IF
+if(1 > 2) {
+    console.log("Falso");
+} else if(1 > 3) {
+    console.log("Falso");
+} else if(1 < 2) {
+    console.log("Verdadeiro");
+}
+
+const userName = "Alisson";
+const userAge = 29;
+
+if(userName === "Alissohn") {
+    console.log(`Olá, ${userName}`);
+} else if(userName === "Alisson" && userAge === 29) {
+    console.log(`Olá, ${userName}, você tem ${userAge} anos!`);
+} else {
+    console.log("Nenhuma conta encontrada!");
+}

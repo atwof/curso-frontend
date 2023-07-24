@@ -114,7 +114,7 @@ for(let t = 0; t < 100; t++) {
     console.log("Repetindo algo...");
 }
 
-let r = 220;
+let r = 20;
 for(r; r > 0; r--) {
     console.log("Repetindo o r...");
 }
@@ -138,4 +138,13 @@ for(let g = 20; g > 10; g--) {
         console.log("O G é 12")
         break;
     }
+}
+
+// Continue
+for(let s = 0; s < 10; s++) {
+    if(s % 2 === 0) {
+        console.log(`O número ${s} é par!`)
+        continue;
+    }
+    console.log(s);
 }

@@ -66,3 +66,10 @@ console.log(5 < 2 && "Mateus" === "Alisson");
 console.log(5 > 2 || "Matheus" === 1);
 console.log(!true);
 console.log(!5 > 2);
+
+// Empty values
+console.log(typeof null, typeof undefined);
+console.log(null === undefined); // false
+console.log(null == undefined); // true
+console.log(null == false);
+console.log(undefined == false);

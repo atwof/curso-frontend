@@ -23,6 +23,7 @@ console.log(`alisson`);
 console.log(typeof "Alisson");
 console.log(typeof 'Alisson');
 
+
 // Mais strings
 console.log("Testando o contra barra n \n nesse momento");
 console.log("Espaçamento de \t tab");
@@ -54,3 +55,14 @@ console.log(10 == "10");
 console.log(10 === "10");
 console.log(9 != '9');
 console.log(9 !== '9');
+
+// Operadores lógicos
+console.log(true && true);
+console.log(true && false);
+console.log(true || false);
+console.log(true || true);
+console.log(5 > 2 && 2 < 10)
+console.log(5 < 2 && "Mateus" === "Alisson");
+console.log(5 > 2 || "Matheus" === 1);
+console.log(!true);
+console.log(!5 > 2);

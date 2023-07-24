@@ -138,3 +138,16 @@ const repeatText = (text, repeat = 2) => {
 
 repeatText("Repetindo");
 repeatText("Repetindo 5 vezes", 5);
+
+// Closure
+function someFunction() {
+    let txt = "Alguma coisa";
+
+    function display() {
+        console.log(txt);
+    }
+
+    display();
+}
+
+someFunction();

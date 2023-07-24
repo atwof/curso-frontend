@@ -30,3 +30,13 @@ console.log(nomecompleto, nomeCompleto);
 let _teste = "teste";
 let $teste = "teste";
 console.log(_teste, $teste);
+
+// Solicitar digitação do usuário
+// let v = prompt("Digite um número");
+// console.log(v);
+
+// Exibir alguma informação na tela
+// const p = 10;
+// alert("Testando")
+//alert(`O número é ${p}`);
+

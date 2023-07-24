@@ -16,6 +16,11 @@ console.log(idade);
 let a = 10, b = 20, c = 30;
 console.log(a,b,c);
 
+// Melhor forma para declaração de variáveis
+let x = 10;
+let y = 20;
+let z = 30;
+
 // Case sensitive
 const nomecompleto = "Alisson F. Fritzen";
 const nomeCompleto = "Alisson"
@@ -24,5 +29,4 @@ console.log(nomecompleto, nomeCompleto);
 // Permitido
 let _teste = "teste";
 let $teste = "teste";
-
 console.log(_teste, $teste);

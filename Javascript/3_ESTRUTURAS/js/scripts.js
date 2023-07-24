@@ -148,3 +148,34 @@ for(let s = 0; s < 10; s++) {
     }
     console.log(s);
 }
+
+// Switch
+const job = "Advogados";
+
+switch(job) {
+    case "Advogado":
+        console.log("Você é advogado");
+        break;
+    case "Programador":
+        console.log("Você é programador");
+        break;
+    case "Ator":
+        console.log("Você é ator");
+        break;
+    default:
+        console.log("Profissão não encontrada!");
+}
+
+// Switch de forma incorreta, sem a atributo break
+const l = 100;
+
+switch(l) {
+    case 2:
+        console.log("Você é advogado");
+    case 100:
+        console.log("Você é programador");
+    case "Ator":
+        console.log("Você é ator");
+    default:
+        console.log("Profissão não encontrada!");
+}

@@ -26,3 +26,7 @@ console.log(typeof 'Alisson')
 // Mais strings
 console.log("Testando o contra barra n \n nesse momento")
 console.log("Espaçamento de \t tab")
+
+// Concatenação
+console.log("Oi, " + "tudo " + "bem?")
+console.log(`Testando ` + `com a ` + `crase`)

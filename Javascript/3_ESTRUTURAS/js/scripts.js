@@ -49,3 +49,20 @@ console.log(Math.ceil(5.22));
 console.log("Log!");
 console.error("Erro!");
 console.warn("Aviso!");
+
+// IF
+const m = 2;
+
+if (m > 5) {
+    console.log("M é maior do que 5")
+} else {
+    console.log("M não é maior do que 5");
+}
+
+const user = "Alisson";
+
+if(user === "Alisson") {
+    console.log(`Olá, ${user}!`);
+} else {
+    console.log("Usuário não reconhecido!");
+}

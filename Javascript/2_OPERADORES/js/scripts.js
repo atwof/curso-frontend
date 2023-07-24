@@ -73,3 +73,9 @@ console.log(null === undefined); // false
 console.log(null == undefined); // true
 console.log(null == false);
 console.log(undefined == false);
+
+// Conversão de tipo automaticamente
+console.log(5 * null);
+console.log("teste" * "opa");
+console.log("10" + 1);
+console.log("10" - 1);

@@ -111,21 +111,31 @@ do {
 
 // FOR
 for(let t = 0; t < 100; t++) {
-    console.log("Repetindo algo...")
+    console.log("Repetindo algo...");
 }
 
 let r = 220;
 for(r; r > 0; r--) {
-    console.log("Repetindo o r...")
+    console.log("Repetindo o r...");
 }
 
 // Identação
 for(let u = 0; u < 10; u++) {
     if(u * 2 > 10) {
-        console.log(`Maior que 10! -> ${u} `)
+        console.log(`Maior que 10! -> ${u} `);
     } else {
         if(u / 2 === 0) {
-            console.log("Deu zero!")
+            console.log("Deu zero!");
         }
+    }
+}
+
+// Saída de um loop - break
+for(let g = 20; g > 10; g--) {
+    console.log(`Valor de g é ${g}`);
+
+    if(g === 12) {
+        console.log("O G é 12")
+        break;
     }
 }

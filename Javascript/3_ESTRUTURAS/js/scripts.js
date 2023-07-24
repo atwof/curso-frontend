@@ -100,3 +100,11 @@ while(o < 5) {
 // while(x < 10) {
 //     console.log(x)
 // }
+
+// Do While
+let aa = 20;
+
+do {
+    console.log(`O valor de aa é ${aa}`)
+    aa--;
+} while(aa > 0)

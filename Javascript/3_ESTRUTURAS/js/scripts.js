@@ -114,7 +114,18 @@ for(let t = 0; t < 100; t++) {
     console.log("Repetindo algo...")
 }
 
-let r = 22220;
+let r = 220;
 for(r; r > 0; r--) {
     console.log("Repetindo o r...")
+}
+
+// Identação
+for(let u = 0; u < 10; u++) {
+    if(u * 2 > 10) {
+        console.log(`Maior que 10! -> ${u} `)
+    } else {
+        if(u / 2 === 0) {
+            console.log("Deu zero!")
+        }
+    }
 }

@@ -31,3 +31,17 @@ function soma(n1, n2) {
 const resultado = soma(a,b);
 console.log(resultado);
 console.log(soma(c,a));
+
+// Escopo da função
+let y = 10;
+
+testandoEscopo();
+
+function testandoEscopo() {
+    let y = 20;
+    console.log(`Y dentro da função é ${y}`)
+}
+
+console.log(`Y fora da função é ${y}`)
+
+testandoEscopo();

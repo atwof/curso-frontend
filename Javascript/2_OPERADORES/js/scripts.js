@@ -40,3 +40,11 @@ console.log(true);
 console.log(typeof true);
 console.log(5 > 9);
 console.log(5 < 9);
+
+// Comparações
+// === -> Idêntico
+console.log(5 <= 5);
+console.log(5 < 5);
+console.log(10 == 10);
+console.log(10 == 9);
+console.log(10 != 9);

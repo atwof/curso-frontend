@@ -108,3 +108,13 @@ do {
     console.log(`O valor de aa é ${aa}`)
     aa--;
 } while(aa > 0)
+
+// FOR
+for(let t = 0; t < 100; t++) {
+    console.log("Repetindo algo...")
+}
+
+let r = 22220;
+for(r; r > 0; r--) {
+    console.log("Repetindo o r...")
+}

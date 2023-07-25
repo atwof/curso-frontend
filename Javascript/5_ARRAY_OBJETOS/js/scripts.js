@@ -206,3 +206,10 @@ console.log(serial);
 // padEnd
 const testPadEnd = serial.padEnd(10, "#");
 console.log(testPadEnd);
+
+// Split
+const frase = "O rato roeu a roupa do rei de Roma";
+const arrayFrase = frase.split(" ");
+console.log(frase);
+console.log(arrayFrase);
+console.log(arrayFrase.reverse());

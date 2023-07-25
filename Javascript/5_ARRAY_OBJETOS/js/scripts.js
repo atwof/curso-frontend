@@ -261,9 +261,16 @@ const userDetails = {
     job: "Programador"
 };
 
-const {firstName, lastName, job} = userDetails;
-console.log(firstName, lastName, job);
+const {firstName: teste, lastName, job} = userDetails;
+console.log(teste, lastName, job);
 
 // Renomear variáveis
 const {firstName: primeiroNome} = userDetails;
-console.log(firstName, primeiroNome);
+console.log(primeiroNome);
+
+// Destructuring em arrays
+const myList = ["aviao", "submarino", "carro"];
+
+const[aviao, sub, carro] = myList;
+console.log(myList);
+console.log(aviao, sub, carro);

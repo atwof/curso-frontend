@@ -73,3 +73,12 @@ console.log(bob);
 
 const jack = criarCachorro("Jack", "Pastor Alemão");
 console.log(jack);
+
+// Funcções como classe
+function Cachorro(nome, raca) {
+    this.nome = nome;
+    this.raca = raca;
+}
+
+const husk = new Cachorro("Pedro", "Husky");
+console.log(husk);

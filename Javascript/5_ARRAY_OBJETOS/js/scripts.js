@@ -197,3 +197,12 @@ const nome = "  Alisson \n     ";
 console.log(nome);
 console.log(nome.trim());
 
+// padStart
+const testePadStart = "1";
+const serial = testePadStart.padStart(4, "0");
+console.log(testePadStart);
+console.log(serial);
+
+// padEnd
+const testPadEnd = serial.padEnd(10, "#");
+console.log(testPadEnd);

@@ -35,7 +35,7 @@ if(c === 1) {
     c = d + 2;
 }
 
-debugger;
+//debugger;
 
 for (let i = 0; i < d; i++) {
     c = c + 2;
@@ -44,9 +44,28 @@ for (let i = 0; i < d; i++) {
 
 console.log("Executou o loop")
 
-debugger;
+//debugger;
 
 for (let i = 0; i < d; i++) {
     c = c + 2;
     console.log(c);
 }
+
+// Tratamento de dados
+function checkNumber(number) {
+    const restult = Number(number);
+
+    if(Number.isNaN(restult)) {
+        console.log("Valor incorreto");
+        return;
+    }
+
+    console.log("Valor correto!")
+    return restult;
+}
+
+checkNumber("a");
+checkNumber(10);
+checkNumber("10");
+checkNumber();
+checkNumber({});

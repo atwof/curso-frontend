@@ -183,3 +183,9 @@ console.log(marcas.includes("Peugeot"));
 if(marcas.includes("BMW")) {
     console.log("Existem carros da marca BMW");
 }
+
+// Reverse - Ordenação
+const reverseTest = [1,2,3,4,5];
+console.log(reverseTest);
+reverseTest.reverse();
+console.log(reverseTest);

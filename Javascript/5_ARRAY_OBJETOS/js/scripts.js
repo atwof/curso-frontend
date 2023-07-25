@@ -16,3 +16,14 @@ console.log(number.length);
 
 const myString = "Alisson"
 console.log(myString.length);
+
+// Métodos
+const otherNumbers = [1,2,3];
+
+// Concatenar duas listas
+const allNumbers = lista.concat(otherNumbers);
+console.log(allNumbers);
+
+const texto = "Meu texto";
+console.log(texto.toUpperCase());
+console.log(texto.toUpperCase().indexOf('E'));

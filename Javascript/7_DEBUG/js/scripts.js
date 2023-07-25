@@ -69,3 +69,10 @@ checkNumber(10);
 checkNumber("10");
 checkNumber();
 checkNumber({});
+
+// Exceptions
+let x = 10;
+
+if(x !== 11) {
+    throw new Error("Valor inválido!");
+}

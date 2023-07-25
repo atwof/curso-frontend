@@ -189,3 +189,11 @@ const reverseTest = [1,2,3,4,5];
 console.log(reverseTest);
 reverseTest.reverse();
 console.log(reverseTest);
+
+// Métodos de strings //
+
+// Trim
+const nome = "  Alisson \n     ";
+console.log(nome);
+console.log(nome.trim());
+

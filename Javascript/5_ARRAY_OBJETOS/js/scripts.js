@@ -253,3 +253,17 @@ const somaInf2 = (...args) => {
 
 console.log(somaInf2(1,2,3,4,5));
 console.log(somaInf2(1,2,3,4,1212,1221,12,12,12121212,121212,211212.5));
+
+// Destructuring em objetos
+const userDetails = {
+    firstName: "Alisson",
+    lastName: "Fritzen",
+    job: "Programador"
+};
+
+const {firstName, lastName, job} = userDetails;
+console.log(firstName, lastName, job);
+
+// Renomear variáveis
+const {firstName: primeiroNome} = userDetails;
+console.log(firstName, primeiroNome);

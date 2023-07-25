@@ -27,3 +27,15 @@ console.log(allNumbers);
 const texto = "Meu texto";
 console.log(texto.toUpperCase());
 console.log(texto.toUpperCase().indexOf('E'));
+
+// Objetos (Object Literals)
+const pessoa = {
+    name: "Alisson",
+    age: 31,
+    job: "Programador"
+};
+
+console.log(pessoa);
+console.log(pessoa.name);
+console.log(pessoa.name.length);
+console.log(typeof pessoa);

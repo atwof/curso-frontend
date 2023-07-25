@@ -159,3 +159,28 @@ console.log(boeing);
 
 console.log(boeing[asas]);
 console.log(boeing[pilotos]);
+
+// Setters e getters
+class Post {
+    constructor(titulo, descricao, tags) {
+        this.titulo = titulo;
+        this.descricao = descricao;
+        this.tags = tags;
+    }
+
+    get exibirTitulo() {
+        return `Você está lendo ${this.titulo}`;
+    }
+
+    set adicionarTags(tags) {
+        const tagsArrays = tags.split(", ");
+        this.tags = tagsArrays;
+    }
+}
+
+const myPost = new Post("Teste", "É um post");
+console.log(myPost);
+console.log(myPost.exibirTitulo);
+
+myPost.adicionarTags = "Programacao, javascript, react";
+console.log(myPost);

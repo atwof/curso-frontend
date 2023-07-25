@@ -184,3 +184,21 @@ console.log(myPost.exibirTitulo);
 
 myPost.adicionarTags = "Programacao, javascript, react";
 console.log(myPost);
+
+// Herança
+class Mamifero {
+    constructor(patas) {
+        this.patas = patas;
+    }
+}
+
+class Lobo extends Mamifero {
+    constructor(patas, nome) {
+        super(patas, patas)
+        this.nome = nome;
+    }
+}
+
+const shark = new Lobo(4, "Shark");
+console.log(shark);
+console.log(shark.patas);

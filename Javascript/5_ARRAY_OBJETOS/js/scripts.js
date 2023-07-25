@@ -85,3 +85,13 @@ console.log(Object.keys(car));
 console.log(Object.entries(obj));
 console.log(Object.entries(obj2));
 console.log(Object.entries(car));
+
+// Mutação ou Mutability
+const a = {
+    name: "Alisson"
+};
+
+const b = a;
+console.log(a, b);
+
+console.log(a, b)

@@ -140,4 +140,11 @@ console.log(fruits.lastIndexOf("abacate"));
 console.log(fruits[2]);
 console.log(fruits[fruits.indexOf("maça")]);
 
+// Slice = subString de outras linguagens
+const testeSlice = ['a','b','c','d','e'];
+const subArray = testeSlice.slice(2,4); // Pega sempre o índice final - 1
+console.log(testeSlice);
+console.log(subArray);
 
+const subArray1 = testeSlice.slice(2); // Pega todos do índice inicial até o fim
+console.log(subArray1) 

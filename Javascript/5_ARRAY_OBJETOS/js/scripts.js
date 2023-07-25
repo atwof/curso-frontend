@@ -227,3 +227,15 @@ console.log(fraseCompra);
 // Repeat
 const palavra = "Testando ";
 console.log(palavra.repeat(5));
+
+// Rest Operator / Rest Parameters
+const somaInfinita = (...args) => {
+    let total = 0;
+    for(let i = 0; i < args.length; i++) {
+        total += args[i];
+    }
+
+    return total;
+}
+
+console.log(somaInfinita(1,2,3,4));

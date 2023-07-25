@@ -73,6 +73,13 @@ checkNumber({});
 // Exceptions
 let x = 10;
 
-if(x !== 11) {
-    throw new Error("Valor inválido!");
+// if(x !== 11) {
+//     throw new Error("Valor inválido!");
+// }
+
+// Try Catch
+try {
+    const soma = x + y;
+} catch (error) {
+    console.log(error);
 }

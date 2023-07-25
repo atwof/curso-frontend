@@ -120,3 +120,15 @@ console.log(t);
 const itemRemovido = t.pop(); // Retorna o item removido
 console.log(itemRemovido);
 console.log(t);
+
+// Shift e unshift
+// shift = pop
+// unshift = push
+const num = [1,2,3,4,5]; // Remove o primeiro item do array
+const l = num.shift(); // Retorna o item removido
+console.log(num, l);
+
+num.unshift(20,30,40); // Adiciona ao início do array
+console.log(num);
+
+

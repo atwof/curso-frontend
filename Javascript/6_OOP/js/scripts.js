@@ -18,8 +18,19 @@ const pessoa = {
     setNome: function(novoNome) {
         this.nome = novoNome;
     }
-}
+};
 
 console.log(pessoa.getNome());
 pessoa.setNome("Carlos");
 console.log(pessoa.getNome());
+
+// Prototype
+const texto = "Teste";
+console.log(Object.getPrototypeOf(texto));
+
+const bool = true;
+console.log(Object.getPrototypeOf(bool));
+
+const arr = [];
+console.log(arr.length);
+console.log(Object.getPrototypeOf(arr));

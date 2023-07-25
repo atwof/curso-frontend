@@ -147,4 +147,30 @@ console.log(testeSlice);
 console.log(subArray);
 
 const subArray1 = testeSlice.slice(2); // Pega todos do índice inicial até o fim
-console.log(subArray1) 
+console.log(subArray1);
+
+// Foreach
+const nums = [1,2,3,4,5,6];
+
+nums.forEach((numero) => {
+    console.log(`Número é ${numero}`);
+});
+
+const posts = [
+    {
+        title: "Primeiro Post",
+        category: "PHP"
+    },
+    {
+        title: "Segundo Post",
+        category: "JAVA"
+    },
+    {
+        title: "Terceiro Post",
+        category: "C++"
+    },
+]
+
+posts.forEach((post) => {
+    console.log(`Exibindo o ${post.title} da catergoria ${post.category}`);
+})

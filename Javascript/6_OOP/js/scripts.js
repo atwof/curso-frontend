@@ -120,3 +120,22 @@ scania.descreverCaminhao();
 Caminhao.prototype.motor = 4.0;
 const c3 = new Caminhao(4, "Azul");
 console.log(c3);
+
+// Override
+class Humano {
+    constructor(nome, idade) {
+        this.nome = nome;
+        this.idade = idade;
+    }
+
+    toString() {
+        console.log(`Nome: ${this.nome} - Idade: ${this.idade}`);
+    }
+}
+
+const Alisson = new Humano("Alisson", 29);
+console.log(Alisson);
+Alisson.toString();
+
+const teste = new Humano("Teste");
+teste.toString();

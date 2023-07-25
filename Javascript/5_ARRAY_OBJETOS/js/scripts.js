@@ -131,4 +131,13 @@ console.log(num, l);
 num.unshift(20,30,40); // Adiciona ao início do array
 console.log(num);
 
+// indexOf e lastIndexOf
+const fruits = ["morango", "maça", "abacate", "pera", "abacate"];
+
+console.log(fruits.indexOf("abacate"));
+console.log(fruits.lastIndexOf("abacate"));
+
+console.log(fruits[2]);
+console.log(fruits[fruits.indexOf("maça")]);
+
 

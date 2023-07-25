@@ -96,3 +96,15 @@ try {
 } finally {
     console.log("O código foi executado!")
 }
+
+// Assertions
+function checkArray(arr) {
+    if(arr.length === 0) {
+        throw new Error("O array não possui valores válidos");
+    } else {
+        console.log(`O array tem ${arr.length} elementos`);
+    }
+}
+
+//checkArray([]);
+checkArray([1,2,3]);

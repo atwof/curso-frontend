@@ -75,10 +75,13 @@ console.log(obj);
 console.log(obj2);
 
 // Conhecendo melhor os objetos
+
+// Keys -> Usado para saber as propriedades do objeto
 console.log(Object.keys(obj));
 console.log(Object.keys(obj2));
 console.log(Object.keys(car));
 
+// Entries -> Usado para saber as propriedades e o valore de cada propriedade 
 console.log(Object.entries(obj));
 console.log(Object.entries(obj2));
 console.log(Object.entries(car));

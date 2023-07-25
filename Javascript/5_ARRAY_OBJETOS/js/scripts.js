@@ -94,4 +94,15 @@ const a = {
 const b = a;
 console.log(a, b);
 
-console.log(a, b)
+// Loop em arrays
+const users = ["alisson", "paulo", "teste", "Caros"];
+
+// For
+for (let i = 0; i < users.length; i++) {
+    console.log(`Usuário ${users[i]}`);
+}
+
+// Foreach
+users.forEach(element => {
+    console.log(element);
+});

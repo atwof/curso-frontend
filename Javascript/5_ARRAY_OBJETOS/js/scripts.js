@@ -239,3 +239,17 @@ const somaInfinita = (...args) => {
 }
 
 console.log(somaInfinita(1,2,3,4));
+
+// For...of
+const somaInf2 = (...args) => {
+    let total = 0;
+
+    for(numbereros of args) {
+        total += numbereros;
+    }
+
+    return total;
+}
+
+console.log(somaInf2(1,2,3,4,5));
+console.log(somaInf2(1,2,3,4,1212,1221,12,12,12121212,121212,211212.5));

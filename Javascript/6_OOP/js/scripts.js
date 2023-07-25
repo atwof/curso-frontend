@@ -139,3 +139,23 @@ Alisson.toString();
 
 const teste = new Humano("Teste");
 teste.toString();
+
+// Symbols em classes -> Valores constantes em classes
+class Aviao {
+    constructor(marca, turbinas) {
+        this.marca = marca;
+        this.turbinas = turbinas;
+    }
+}
+
+const asas = Symbol();
+Aviao.prototype[asas] = 2;
+
+const pilotos = Symbol();
+Aviao.prototype[pilotos] = 3;
+
+const boeing = new Aviao("Boeing", 10);
+console.log(boeing);
+
+console.log(boeing[asas]);
+console.log(boeing[pilotos]);

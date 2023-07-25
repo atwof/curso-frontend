@@ -106,3 +106,17 @@ for (let i = 0; i < users.length; i++) {
 users.forEach(element => {
     console.log(element);
 });
+
+// Push e pop
+const t = [1,2,3,4,5,6];
+console.log(t);
+
+// Adicionar item na última posição
+t.push(10);
+t.push(20,30,40);
+console.log(t);
+
+// Remover um item
+const itemRemovido = t.pop(); // Retorna o item removido
+console.log(itemRemovido);
+console.log(t);

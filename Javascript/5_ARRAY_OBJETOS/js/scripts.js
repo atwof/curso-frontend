@@ -207,9 +207,19 @@ console.log(serial);
 const testPadEnd = serial.padEnd(10, "#");
 console.log(testPadEnd);
 
-// Split
+// Split - Separar uma string com base em um delimitador
 const frase = "O rato roeu a roupa do rei de Roma";
 const arrayFrase = frase.split(" ");
 console.log(frase);
 console.log(arrayFrase);
-console.log(arrayFrase.reverse());
+
+// Join - Unir uma string com base em um delimitador
+const fraseNova = arrayFrase.join(" ");
+console.log(arrayFrase);
+console.log(fraseNova);
+
+const itemCompra = ["Mouse", "Teclado", "Monitor"];
+
+const fraseCompra = `Precisamos comprar: ${itemCompra.join(", ")}.`;
+console.log(itemCompra);
+console.log(fraseCompra);

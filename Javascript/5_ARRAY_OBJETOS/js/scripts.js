@@ -174,3 +174,12 @@ const posts = [
 posts.forEach((post) => {
     console.log(`Exibindo o ${post.title} da catergoria ${post.category}`);
 })
+
+// Includes
+const marcas = ["BMW", "VW", "FIAT"];
+console.log(marcas.includes("FIAT"));
+console.log(marcas.includes("Peugeot"));
+
+if(marcas.includes("BMW")) {
+    console.log("Existem carros da marca BMW");
+}

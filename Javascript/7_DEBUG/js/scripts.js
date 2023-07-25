@@ -83,3 +83,16 @@ try {
 } catch (error) {
     console.log(error);
 }
+
+// Finally
+try {
+    const value = checkNumber("asd");
+
+    if(!value) {
+        throw new Error("Valor inválido");
+    }
+} catch(error) {
+    console.log(error);
+} finally {
+    console.log("O código foi executado!")
+}

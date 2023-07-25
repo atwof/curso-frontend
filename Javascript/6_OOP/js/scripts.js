@@ -93,10 +93,30 @@ husk.uivar();
 // Classes ES6
 class CachorroClasse {
     constructor(nome, raca) {
-        this.nome = nome,
-        this.raca = raca
+        this.nome = nome;
+        this.raca = raca;
     }
 }
 
 const jeff = new CachorroClasse("Jeff", "Labrador");
 console.log(jeff);
+
+// Mais sobre classes
+class Caminhao {
+    constructor(numeroEixos, corCaminhao) {
+        this.numeroEixos = numeroEixos;
+        this.corCaminhao = corCaminhao;
+    }
+
+    descreverCaminhao() {
+        console.log(`Este caminhão tem ${this.numeroEixos} eixos e é da cor ${this.corCaminhao}`);
+    }
+}
+
+const scania = new Caminhao(6, "Vermelho");
+console.log(scania);
+scania.descreverCaminhao();
+
+Caminhao.prototype.motor = 4.0;
+const c3 = new Caminhao(4, "Azul");
+console.log(c3);

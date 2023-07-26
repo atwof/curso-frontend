@@ -100,3 +100,12 @@ async function chamadaAsync() {
 
 chamadaAsync();
 
+// Generators -> Asterísco nao está funcionando no mac
+// fuction* generator() {
+//     yield 1;
+//     yield 2;
+// }
+
+// const gen = generator();
+// console.log(gen.next().value);
+// console.log(gen.next().value);

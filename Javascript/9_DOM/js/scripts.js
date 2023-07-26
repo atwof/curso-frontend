@@ -59,3 +59,10 @@ firstLink.setAttribute("href", "https://google.com");
 console.log(firstLink.getAttribute("href"));
 
 firstLink.setAttribute("target", "_blank");
+
+// Alterando HTML usando DOM - offsetWidth e offsetHeight -> considerando bordas
+const footer = document.querySelector("footer");
+console.log(footer.offsetWidth, footer.offsetHeight);
+
+// Alterando HTML usando DOM - offsetWidth e offsetHeight -> desconsiderando bordas
+console.log(footer.clientWidth, footer.clientHeight);

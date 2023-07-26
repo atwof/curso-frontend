@@ -82,3 +82,14 @@ window.addEventListener("scroll", (e) => {
         console.log("Passamos de 200px");
     }
 });
+
+// Evento de focus [entrou no elemento]  e blur [saiu do elemento]
+// Pode ser usado nas validações do usuário
+const input = document.querySelector("#my-input");
+input.addEventListener("focus", () => {
+    console.log("Entrou no input");
+});
+
+input.addEventListener("blur", () => {
+    console.log("Saiu no input");
+});

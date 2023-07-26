@@ -39,3 +39,10 @@ btnInsideContainer.addEventListener("click", (e) => {
     e.stopPropagation();
     alert("Evento 2");
 });
+
+// Removendo evento padrão
+const google = document.querySelector("a");
+google.addEventListener("click", (e) => {
+    e.preventDefault();
+    alert("Nao deve abrir o site");
+});

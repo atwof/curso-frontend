@@ -7,3 +7,7 @@ console.log(document.body.childNodes[1].childNodes[1].textContent)
 // Selecionando elementos por TAG
 const elementosPorTag = document.getElementsByTagName("li");
 console.log(elementosPorTag);
+
+// Selecionando por ID
+const elementoPorId = document.getElementById("title");
+console.log(elementoPorId);

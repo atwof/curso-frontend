@@ -8,6 +8,10 @@ console.log(document.body.childNodes[1].childNodes[1].textContent)
 const elementosPorTag = document.getElementsByTagName("li");
 console.log(elementosPorTag);
 
-// Selecionando por ID
+// Selecionando elemento por ID
 const elementoPorId = document.getElementById("title");
 console.log(elementoPorId);
+
+// Selecionando elementos por classe
+const elementosPorClasse = document.getElementsByClassName("product");
+console.log(elementosPorClasse[1]);

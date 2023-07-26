@@ -22,3 +22,17 @@ console.log(elementosPorSeletorCSS);
 
 const elementoPorSeletorCSS = document.querySelector("#main-container");
 console.log(elementoPorSeletorCSS);
+
+// Alterando HTML usando o DOM - insertBefore
+const p = document.createElement("p");
+console.log(p);
+
+const header = elementoPorId.parentElement;
+console.log(header);
+
+header.insertBefore(p, title);
+
+// Alterando HTML usando o DOM - insertBefore
+
+// Alterando HTML usando o DOM - insertBefore
+

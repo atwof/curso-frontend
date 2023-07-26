@@ -66,3 +66,7 @@ console.log(footer.offsetWidth, footer.offsetHeight);
 
 // Alterando HTML usando DOM - offsetWidth e offsetHeight -> desconsiderando bordas
 console.log(footer.clientWidth, footer.clientHeight);
+
+// Alterando HTML usando DOM - getBoundingClientRect -> Posição do elemento
+const product = elementosPorSeletorCSS[0];
+console.log(product.getBoundingClientRect());

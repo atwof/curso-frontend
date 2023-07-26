@@ -75,3 +75,8 @@ console.log(product.getBoundingClientRect());
 elementoPorSeletorCSS.style.color = "red";
 elementoPorSeletorCSS.style.backgroundColor = "purple";
 elementoPorSeletorCSS.style.paddingBottom = "20px"
+
+// Alterando HTML usando DOM - Alterando estilo de vários elementos
+for(const li of elementosPorTag) {
+    li.style.backgroundColor = "red";
+}

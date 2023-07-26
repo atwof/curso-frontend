@@ -99,7 +99,30 @@ window.addEventListener("load", (e) => {
     console.log("A página carregou...");
 });
 
-window.addEventListener("beforeunload", (e) => {
-    e.preventDefault();
-    e.returnValue = "";
+// window.addEventListener("beforeunload", (e) => {
+//     e.preventDefault();
+//     e.returnValue = "";
+// });
+
+// Debounce
+const debounce = (f, delay) => {
+    let timeOut;
+
+    return(...args) => {
+        if(timeOut) {
+            clearTimeout(timeOut);
+        }
+
+        timeOut = setTimeout(() => {
+            f.apply(args);
+        }, delay);
+    }
+}
+
+window.addEventListener("mousemove", () => {
+    console.log("Executando evento...");
 });
+
+window.addEventListener("mousemove", debounce(() => {
+    console.log("Executando a cada 400ms")
+}, 4000));

@@ -93,3 +93,13 @@ input.addEventListener("focus", () => {
 input.addEventListener("blur", () => {
     console.log("Saiu no input");
 });
+
+// Evento de carregamento da página
+window.addEventListener("load", (e) => {
+    console.log("A página carregou...");
+});
+
+window.addEventListener("beforeunload", (e) => {
+    e.preventDefault();
+    e.returnValue = "";
+});

@@ -70,3 +70,8 @@ console.log(footer.clientWidth, footer.clientHeight);
 // Alterando HTML usando DOM - getBoundingClientRect -> Posição do elemento
 const product = elementosPorSeletorCSS[0];
 console.log(product.getBoundingClientRect());
+
+// Alterando HTML usando DOM - CSS com JS
+elementoPorSeletorCSS.style.color = "red";
+elementoPorSeletorCSS.style.backgroundColor = "purple";
+elementoPorSeletorCSS.style.paddingBottom = "20px"

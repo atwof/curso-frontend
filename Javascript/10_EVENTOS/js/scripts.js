@@ -16,3 +16,12 @@ thirdBtn.addEventListener("click", () => {
     alert("Evento removido");
     secondBtn.removeEventListener("click", imprimirMensagem);
 });
+
+// Argumento de um evento
+const myTtitle = document.querySelector("#my-title");
+myTtitle.addEventListener("click", (event) => {
+    alert(event);
+    alert(event.offsetX);
+    alert(event.pointerType);
+    alert(event.target);
+});

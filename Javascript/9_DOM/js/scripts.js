@@ -43,3 +43,9 @@ h2.textContent = "Meu novo título";
 
 header.replaceChild(h2, title);
 
+// Alterando HTML usando DOM - createTextNode
+const myText = document.createTextNode("Mais um título");
+const h3 = document.createElement("h3");
+h3.appendChild(myText);
+console.log(h3);
+elementoPorSeletorCSS.appendChild(h3);

@@ -15,3 +15,10 @@ console.log(elementoPorId);
 // Selecionando elementos por classe
 const elementosPorClasse = document.getElementsByClassName("product");
 console.log(elementosPorClasse[1]);
+
+// Selecionando elementos por seletor de CSS
+const elementosPorSeletorCSS = document.querySelectorAll(".product");
+console.log(elementosPorSeletorCSS);
+
+const elementoPorSeletorCSS = document.querySelector("#main-container");
+console.log(elementoPorSeletorCSS);

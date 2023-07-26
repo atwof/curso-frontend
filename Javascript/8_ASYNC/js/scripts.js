@@ -11,3 +11,16 @@ console.log("Ainda nao comecou");
 //     console.log("Executou o setInterval");
 // }, 3000)
 console.log("Ainda nao comecou");
+
+// Promises -> Execuções assíncronas
+const promessa = Promise.resolve(5 + 5); // Irá executar a expressão
+console.log("Algum codigo");
+
+promessa.then(value => { // Retorna o valor e permite utilizar depois
+    console.log(`A soma é ${value}`);
+    return value;
+})
+.then((value) => value - 1)
+.then((value) => console.log(`Agora o valor é ${value}`));
+
+console.log("Outro codigo");

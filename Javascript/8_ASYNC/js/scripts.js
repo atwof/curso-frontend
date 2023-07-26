@@ -24,3 +24,30 @@ promessa.then(value => { // Retorna o valor e permite utilizar depois
 .then((value) => console.log(`Agora o valor é ${value}`));
 
 console.log("Outro codigo");
+
+// Falha na promise
+Promise.resolve(4 * "aaa")
+.then((n) => {
+    if(Number.isNaN(n)) {
+        throw new Error("Valor inválido");
+    }
+})
+.catch((error) => console.log(`Um erro ocorreu: ${error}`));
+
+// Rejeitando promises
+function checkNumber(n) {
+    return new Promise((resolve, reject) => {
+        if(n > 10) {
+            resolve("O número é maior que 10");
+        } else {
+            reject(new Error("Número muito baixo"));
+        }
+    });
+}
+
+const a = checkNumber(20);
+const b = checkNumber(10);
+
+a.then((n) => console.log(n)).catch((error) => console.log(`Ocorreu o erro: ${error}`));
+
+b.then((n) => console.log(n)).catch((error) => console.log(`Ocorreu o erro: ${error}`));

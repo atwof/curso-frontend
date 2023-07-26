@@ -25,3 +25,17 @@ myTtitle.addEventListener("click", (event) => {
     alert(event.pointerType);
     alert(event.target);
 });
+
+// Propagação
+const containerBtn = document.querySelector("#btn-container");
+const btnInsideContainer = document.querySelector("#div-btn");
+
+containerBtn.addEventListener("click", () => {
+    alert("Evento 1");
+});
+
+// Impedir que o evento ocorra em outros elementos
+btnInsideContainer.addEventListener("click", (e) => {
+    e.stopPropagation();
+    alert("Evento 2");
+});

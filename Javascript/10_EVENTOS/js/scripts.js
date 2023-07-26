@@ -46,3 +46,12 @@ google.addEventListener("click", (e) => {
     e.preventDefault();
     alert("Nao deve abrir o site");
 });
+
+// Eventos de tecla
+document.addEventListener("keyup", (e) => {
+    console.log(`Soltou a tecla: ${e.key}`);
+});
+
+document.addEventListener("keydown", (e) => {
+    console.log(`Pressionou a tecla: ${e.key}`);
+});

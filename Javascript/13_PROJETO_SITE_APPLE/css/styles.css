@@ -123,7 +123,7 @@ header nav {
     max-width: 1000px;
     margin: 3rem auto;
     opacity: 1;
-    transform: 0.5s;
+    transition: 0.5s;
 }
 
 #main-content #product-image.changing {
